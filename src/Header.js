@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = () => {
+const Header = (props) => {
   //   const headerStyle = {
   //     backgroundColor: "royalblue",
   //     color: "#fff",
@@ -14,7 +14,7 @@ const Header = () => {
     //   style={headerStyle}
     // >
     <header>
-      <h1>Groceries List</h1>
+      <h1>{props.title}</h1>
     </header>
   );
 };
